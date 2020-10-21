@@ -15,4 +15,4 @@ stock data (https://finance.yahoo.com/quote/MSFT/history?p=MSFT).
 ## Notebooks folder
 In the notebooks folder, the stock_matrket_prediction.ipynb file contains the total analysis and the prediction on these two datasets are there. Final.ipynb contains the prediction using the best model.
 
-You can look more about the analysis in this medium article (https://medium.com/p/d5f4e86055be/edit).
+You can look more about the analysis in this medium article (https://medium.com/@navaneethrayavarapu/stock-market-prediction-using-artificial-intelligence-ai-d5f4e86055be).
