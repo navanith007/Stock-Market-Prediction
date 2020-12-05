@@ -27,12 +27,17 @@ There are two different data sets are used in this analysis.
 **Second data set**: (https://www.kaggle.com/uciml/news-aggregator-dataset) This dataset contains the technical news, business news of various top companies in the period of five months. And the Microsoft stock data (https://finance.yahoo.com/quote/MSFT/history?p=MSFT).  
 
 ## 4. Data pre-processing  
-* Stock data contains continuous features which depends on the time. But, my model doesn't depend on the time. So, to get the discrete features fromt this dataset. I generated five features from the dataset.  
+* Stock data contains continuous features which depends on the time. But, my model doesn't depend on the time. So, to get the discrete features fromt this dataset. I generated five features from the stock dataset.  
     1. **move_close**: It's the movement of today's close price compared to yesterday's closing price. This feature values are either **increased** or **decreased**.  
     2. **move_open**: It's the movement of today's open price compared to yesterday's open price. This feature values are either **increased** or **decreased**.  
     3. **move_high**: It's the movement of today's high price compared to yesterday's high price. This feature values are either **increased** or **decreased**.  
     4. **move_low**:  It's the movement of today's low price compared to yesterday's low price. This feature values are either **increased** or **decreased**.  
-    5. **move_close_open**: It's the movement of today's close price compared to today's opening price. This is the target feature. This feature values are either **Buyers are control** or **sellers or control**.  
+    5. **move_close_open**: It's the movement of today's close price compared to today's opening price. This is the target feature. This feature values are either **Buyers are control** or **sellers or control**. 
+
+* In both datasets the news data is messy, The news data set is cleaned by removing stopwords.  
+
+* the cleaned dataset looks like this.  
+
  
  
 
