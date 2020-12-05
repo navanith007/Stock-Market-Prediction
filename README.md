@@ -11,11 +11,11 @@
 
 ## 2. Code and Resources used
 **python**: version 3.7  
-**packages**: pandas, numpy, sklearn, matplotlib, TensorFlow, NLTK.
+**packages**: pandas, numpy, sklearn, matplotlib, TensorFlow, NLTK.  
 **Research papers Referred**:
   * (https://www.researchgate.net/publication/318298991_Predicting_Stock_Market_Behavior_using_Data_Mining_Technique_and_News_Sentiment_Analysis)
   * (http://ieeexplore.ieee.org/document/7996306/)
-  * (https://www.intechopen.com/online-first/recent-advances-in-stock-market-prediction-using-text-mining-a-survey)
+  * (https://www.intechopen.com/online-first/recent-advances-in-stock-market-prediction-using-text-mining-a-survey)  
 **Github code referred**:
   * (https://github.com/EmielStoelinga/CCMLWI)
 
