@@ -21,10 +21,20 @@
   * (https://github.com/EmielStoelinga/CCMLWI)
 
 
-## Data sets used
+## 3. Data sets used  
 There are two different data sets are used in this analysis.  
 **First data set**: (https://www.kaggle.com/aaron7sun/stocknews) This dataset contains the Dow Jones industrial Average stock data and the Top25 Reddit news published.  
 **Second data set**: (https://www.kaggle.com/uciml/news-aggregator-dataset) This dataset contains the technical news, business news of various top companies in the period of five months. And the Microsoft stock data (https://finance.yahoo.com/quote/MSFT/history?p=MSFT).  
+
+## 4. Data pre-processing  
+* Stock data contains continuous features which depends on the time. But, my model doesn't depend on the time. So, to get the discrete features fromt this dataset. I generated five features from the dataset.  
+ * **move_close**: It's the movement of today's close price compared to yesterday's closing price. This feature values are either **increased** or **decreased**.  
+ * **move_open**: It's the movement of today's open price compared to yesterday's open price. This feature values are either **increased** or **decreased**.
+ * **move_high**: It's the movement of today's high price compared to yesterday's high price. This feature values are either **increased** or **decreased**.
+ * **move_low**:  It's the movement of today's low price compared to yesterday's low price. This feature values are either **increased** or **decreased**.
+ * **move_close_open**: It's the movement of today's close price compared to today's opening price. This is the target feature. This feature values are either **Buyers are control** or **sellers or control**.  
+ 
+ 
 
 ## Notebooks folder
 In the notebooks folder, the stock_matrket_prediction.ipynb file contains the total analysis and the prediction on these two datasets are there. Final.ipynb contains the prediction using the best model.
