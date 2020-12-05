@@ -9,6 +9,17 @@
 * Researched with different datasets and conculded what to do and what not do in the work of stock market prediction.
 * knn, svm and deep learning models are used to predict the class label.
 
+## 2. Code and Resources used
+**python**: version 3.7  
+**packages**: pandas, numpy, sklearn, matplotlib, TensorFlow, NLTK.
+**Research papers Referred**:
+  * (https://www.researchgate.net/publication/318298991_Predicting_Stock_Market_Behavior_using_Data_Mining_Technique_and_News_Sentiment_Analysis)
+  * (http://ieeexplore.ieee.org/document/7996306/)
+  * (https://www.intechopen.com/online-first/recent-advances-in-stock-market-prediction-using-text-mining-a-survey)
+**Github code referred**:
+  * (https://github.com/EmielStoelinga/CCMLWI)
+
+
 ## Data sets used
 There are two different data sets are used in this analysis.
 First data set: (https://www.kaggle.com/aaron7sun/stocknews) This dataset contains the Dow Jones industrail Average stock data and the Top25 Reddit news published.  
