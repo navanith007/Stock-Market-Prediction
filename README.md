@@ -2,7 +2,7 @@
 ### Author: Rayavarapu Navanith
 
 ## 1. Project overview
-*Stock market Prediction offers great profit avenues and is a fundamental stimulus for most researchers in this area. This github repo researched the both 
+* Stock market Prediction offers great profit avenues and is a fundamental stimulus for most researchers in this area. This github repo researched the both 
 fundamental analysis and technical analysis on the stock data to predict the market movement. Technical Analysis refers to using the historical stock data to predict the future
 market movement. Fundamental Analysis refers to using the financial news related to the stock market to predict the future market movement.
 
