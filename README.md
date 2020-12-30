@@ -1,4 +1,4 @@
-# Stock Market prediction using both stock data and the news data
+# Stock Market Prediction using both stock data and the news data
 ### Author: Rayavarapu Navanith
 
 ## 1. Project overview
